@@ -1,0 +1,1037 @@
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 42.66px !important;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 80px !important;
+  }
+}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+ul {
+  list-style-type: none;
+}
+/* Text-level semantics
+     ========================================================================== */
+
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+
+/**
+   * Add the correct display in IE 10+.
+   */
+
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+
+[hidden] {
+  display: none;
+}
+
+/* background image */
+body {
+  background: url(../images/background-image.jpeg) no-repeat;
+  background-size: cover;
+}
+
+/* floating title */
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+.topTitle {
+  width: 100%;
+}
+
+section {
+  animation: floating 5s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+.tilt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: tilting 10s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+section span {
+  font-size: 0.63rem;
+  color: #f3eed9;
+  transition: font-weight 0.4s ease-in;
+  animation: floating-secondary 2.5s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+section span:nth-child(1) {
+  animation-delay: 1s;
+}
+section span:nth-child(2) {
+  animation-delay: 2s;
+}
+section span:nth-child(3) {
+  animation-delay: 3s;
+}
+section span:nth-child(4) {
+  animation-delay: 4s;
+}
+section span:nth-child(5) {
+  animation-delay: 5s;
+}
+section span:nth-child(6) {
+  animation-delay: 6s;
+}
+section span:nth-child(7) {
+  animation-delay: 7s;
+}
+section span:nth-child(9) {
+  animation-delay: 8s;
+}
+section span:nth-child(10) {
+  animation-delay: 7s;
+}
+section span:nth-child(11) {
+  animation-delay: 5s;
+}
+section span:nth-child(12) {
+  animation-delay: 4s;
+}
+section span:nth-child(13) {
+  animation-delay: 3s;
+}
+section span:nth-child(14) {
+  animation-delay: 2s;
+}
+section span:nth-child(15) {
+  animation-delay: 1s;
+}
+section span:hover {
+  font-weight: 100;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 5vh);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes floating-secondary {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 1vh);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes tilting {
+  0% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
+}
+
+.viewport {
+  display: flex;
+  min-width: 1024px;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 1.1rem 0.25rem 0;
+  min-height: 780px;
+}
+
+.viewport .column {
+  flex: 3;
+}
+
+.viewport .column:nth-child(2) {
+  flex: 4;
+}
+
+/* panel styling */
+.panel {
+  position: relative;
+  border: 15px solid transparent;
+  border-width: 0.1875rem;
+  border-image-source: url(../images/border-image.png);
+  border-image-slice: 51 38 20 132;
+  margin-bottom: 0.25rem;
+}
+.panel {
+  font-size: 0.25rem;
+  color: #fff;
+  font-weight: 400;
+}
+.inner {
+  position: absolute;
+  top: -0.1875rem;
+  left: -0.1875rem;
+  right: -0.1875rem;
+  padding: 0.3rem 0.45rem;
+}
+
+.overview {
+  height: 1.375rem;
+}
+
+.overview ul {
+  display: flex;
+  justify-content: space-between;
+}
+.overview li {
+  text-align: center;
+  padding: 0 0.125rem;
+}
+
+.overview ul li h4 {
+  font-size: 0.35rem;
+  color: #fff;
+  margin: 0 0 0.1rem 0.06rem;
+}
+h4 {
+  font-weight: 400;
+}
+.overview ul li span {
+  font-size: 0.2rem;
+  color: #4c9bfd;
+}
+.monitor {
+  height: 6rem;
+}
+.monitor .inner {
+  padding: 0.3rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.monitor .tabs {
+  padding: 0 0.45rem;
+  margin-bottom: 0.225rem;
+  display: flex;
+}
+.monitor .tabs a {
+  color: #1950c4;
+  font-size: 0.225rem;
+  padding: 0 0.3375rem;
+}
+.monitor .tabs a:first-child {
+  padding-left: 0;
+  border-right: 0.025rem solid #00f2f1;
+}
+.monitor .tabs a.active {
+  color: #fff;
+}
+.monitor .content {
+  flex: 1;
+  position: relative;
+  display: none;
+}
+.monitor .head {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.05;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.15rem 0.45rem;
+  color: #68d8fe;
+  font-size: 0.175rem;
+}
+.monitor .marquee-view {
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 350px;
+}
+
+.monitor .row {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.05;
+  font-size: 0.15rem;
+  color: #61a8ff;
+  padding: 0.15rem 0.45rem;
+}
+.monitor .row .icon-dot {
+  position: absolute;
+  left: 0.2rem;
+  opacity: 0;
+}
+.monitor .row:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #68d8fe;
+}
+.monitor .row:hover .icon-dot {
+  opacity: 1;
+}
+.monitor .col:first-child {
+  width: 1rem;
+}
+.monitor .col:nth-child(2) {
+  width: 2.5rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.monitor .col:nth-child(3) {
+  width: 1rem;
+}
+/* 通过CSS3动画滚动marquee */
+.marquee-view .marquee {
+  animation: move 15s linear infinite;
+}
+@keyframes move {
+  0% {
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+/* 3.鼠标经过marquee 就停止动画 */
+.marquee-view .marquee:hover {
+  animation-play-state: paused;
+}
+/* 点位分布统计模块制作 */
+.point {
+  height: 4.25rem;
+}
+.point .chart {
+  display: flex;
+  margin-top: 0.3rem;
+  justify-content: space-between;
+}
+.point .pie {
+  width: 3.9rem;
+  height: 3rem;
+  margin-left: -0.125rem;
+}
+.point .data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.1rem;
+  padding: 0.45rem 0.375rem;
+  box-sizing: border-box;
+  background-image: url(../images/rect.png);
+  background-size: cover;
+}
+.point h4 {
+  margin-bottom: 0.15rem;
+  font-size: 0.35rem;
+  color: #fff;
+}
+.point span {
+  display: block;
+  color: #4c9bfd;
+  font-size: 0.2rem;
+}
+.column:nth-child(2) {
+  padding: 0 0.25rem;
+}
+
+/* 地图模块制作 */
+.map {
+  height: 7.225rem;
+  margin-bottom: 0.25rem;
+  display: flex;
+  flex-direction: column;
+}
+.map h3 {
+  line-height: 1;
+  padding: 0.2rem 0;
+  margin: 0;
+  font-size: 0.25rem;
+  color: #fff;
+  font-weight: 400;
+}
+.map .icon-cube {
+  color: #68d8fe;
+}
+.map .chart {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+.map .geo {
+  width: 100%;
+  height: 100%;
+}
+/* 用户统计模块 */
+.users {
+  height: 4.25rem;
+  display: flex;
+}
+.users .chart {
+  display: flex;
+  margin-top: 0.3rem;
+}
+.users .bar {
+  width: 7.35rem;
+  height: 3rem;
+}
+.users .data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.1rem;
+  padding: 0.45rem 0.375rem;
+  box-sizing: border-box;
+  background-image: url(../images/rect.png);
+  background-size: cover;
+}
+.users h4 {
+  margin-bottom: 0.15rem;
+  font-size: 0.35rem;
+  color: #fff;
+}
+.users span {
+  display: block;
+  color: #4c9bfd;
+  font-size: 0.2rem;
+}
+/* 订单模块制作 */
+.order {
+  height: 1.875rem;
+}
+.order .filter {
+  display: flex;
+}
+.order .filter a {
+  display: block;
+  height: 0.225rem;
+  line-height: 1;
+  padding: 0 0.225rem;
+  color: #1950c4;
+  font-size: 0.225rem;
+  border-right: 0.025rem solid #00f2f1;
+}
+.order .filter a:first-child {
+  padding-left: 0;
+}
+.order .filter a:last-child {
+  border-right: none;
+}
+.order .filter a.active {
+  color: #fff;
+  font-size: 0.25rem;
+}
+.order .data {
+  display: flex;
+  margin-top: 0.25rem;
+}
+.order .item {
+  width: 50%;
+}
+.order h4 {
+  font-size: 0.35rem;
+  color: #fff;
+  margin-bottom: 0.125rem;
+}
+.order span {
+  display: block;
+  color: #4c9bfd;
+  font-size: 0.2rem;
+}
+/* 销售区域 */
+.sales {
+  height: 3.1rem;
+}
+.sales .caption {
+  display: flex;
+  line-height: 1;
+}
+.sales h3 {
+  height: 0.225rem;
+  padding-right: 0.225rem;
+  border-right: 0.025rem solid #00f2f1;
+}
+.sales a {
+  padding: 0.05rem;
+  font-size: 0.2rem;
+  margin: -0.0375rem 0 0 0.2625rem;
+  border-radius: 0.0375rem;
+  color: #0bace6;
+}
+.sales a.active {
+  background-color: #4c9bfd;
+  color: #fff;
+}
+.sales .inner {
+  display: flex;
+  flex-direction: column;
+}
+.sales .chart {
+  flex: 1;
+  padding-top: 0.1875rem;
+  position: relative;
+}
+.sales .label {
+  position: absolute;
+  left: 0.525rem;
+  top: 0.225rem;
+  color: #4996f5;
+  font-size: 0.175rem;
+}
+.sales .line {
+  width: 100%;
+  height: 100%;
+  /* background-color: pink; */
+}
+/* 渠道分布以及季度销售模块 */
+.wrap {
+  display: flex;
+}
+.channel,
+.quarter {
+  flex: 1;
+  height: 2.9rem;
+}
+.channel {
+  margin-right: 0.25rem;
+}
+.channel .data {
+  overflow: hidden;
+}
+.channel .data .radar {
+  height: 2.1rem;
+  width: 100%;
+}
+.channel h4 {
+  color: #fff;
+  font-size: 0.4rem;
+  margin-bottom: 0.0625rem;
+}
+.channel small {
+  font-size: 50%;
+}
+.channel span {
+  display: block;
+  color: #4c9bfd;
+  font-size: 0.175rem;
+}
+/* 季度区块 */
+.quarter .inner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 -0.075rem;
+}
+.quarter .chart {
+  flex: 1;
+  padding-top: 0.225rem;
+}
+.quarter .box {
+  position: relative;
+}
+.quarter .label {
+  transform: translate(-50%, -30%);
+  color: #fff;
+  font-size: 0.375rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.quarter .label small {
+  font-size: 50%;
+}
+.quarter .gauge {
+  height: 1.05rem;
+}
+.quarter .data {
+  display: flex;
+  justify-content: space-between;
+}
+.quarter .item {
+  width: 50%;
+}
+.quarter h4 {
+  color: #fff;
+  font-size: 0.3rem;
+  margin-bottom: 0.125rem;
+}
+.quarter span {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: #4c9bfd;
+  font-size: 0.175rem;
+}
+/* 全国热榜模块制作 */
+/* 排行榜 */
+.top {
+  height: 3.5rem;
+}
+.top .inner {
+  display: flex;
+}
+.top .all {
+  display: flex;
+  flex-direction: column;
+  width: 2.1rem;
+  color: #4c9bfd;
+  font-size: 0.175rem;
+  vertical-align: middle;
+}
+.top .all ul {
+  padding-left: 0.15rem;
+  margin-top: 0.15rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top .all li {
+  overflow: hidden;
+}
+.top .all [class^="icon-"] {
+  font-size: 0.45rem;
+  vertical-align: middle;
+  margin-right: 0.15rem;
+}
+.top .province {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.top .province i {
+  padding: 0 0.15rem;
+  margin-top: 0.0625rem;
+  float: right;
+  font-style: normal;
+  font-size: 0.175rem;
+  color: #0bace6;
+}
+.top .province s {
+  display: inline-block;
+  transform: scale(0.8);
+  text-decoration: none;
+}
+.top .province .icon-up {
+  color: #dc3c33;
+}
+.top .province .icon-down {
+  color: #36be90;
+}
+.top .province .data {
+  flex: 1;
+  display: flex;
+  margin-top: 0.175rem;
+}
+.top .province ul {
+  flex: 1;
+  line-height: 1;
+  margin-bottom: 0.175rem;
+}
+.top .province ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.top .province ul span {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.top .province ul.sup {
+  font-size: 0.175rem;
+}
+.top .province ul.sup li {
+  color: #4995f4;
+  padding: 0.15rem;
+}
+.top .province ul.sup li.active {
+  color: #a3c6f2;
+  background-color: rgba(10, 67, 188, 0.2);
+}
+.top .province ul.sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 0.15rem;
+  background-color: rgba(10, 67, 188, 0.2);
+}
+.top .province ul.sub li {
+  color: #52ffff;
+  padding: 0.125rem 0.175rem;
+}
+.clock {
+  position: absolute;
+  top: -0.45rem;
+  right: 0.5rem;
+  font-size: 0.25rem;
+  color: #0bace6;
+}
+.clock i {
+  margin-right: 5px;
+  font-size: 0.25rem;
+}
+@media screen and (max-width: 1600px) {
+  .top span {
+    transform: scale(0.9);
+  }
+  .top .province ul.sup li {
+    padding: 0.125rem 0.15rem;
+  }
+  .top .province ul.sub li {
+    padding: 0.0625rem 0.15rem;
+  }
+  .quarter span {
+    transform: scale(0.9);
+  }
+}
